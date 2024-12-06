@@ -7,6 +7,8 @@
 ## **Directory Structure**
 
 
+Project/ ├── client/ │ ├── public/ │ │ ├── index.html │ │ ├── manifest.json │ │ └── robots.txt │ ├── src/ │ │ ├── components/ │ │ │ ├── FlexBetween.jsx │ │ │ ├── Friend.jsx │ │ │ ├── UserImage.jsx │ │ │ └── WidgetWrapper.jsx │ │ ├── scenes/ │ │ │ ├── homePage/ │ │ │ │ ├── index.jsx │ │ │ ├── loginPage/ │ │ │ │ ├── Form.jsx │ │ │ │ └── index.jsx │ │ │ ├── navbar/ │ │ │ │ └── index.jsx │ │ │ └── profilePage/ │ │ │ └── index.jsx │ │ ├── widgets/ │ │ │ ├── AdvertWidget.jsx │ │ │ ├── FriendListWidget.jsx │ │ │ ├── MyPostWidget.jsx │ │ │ ├── PostsWidget.jsx │ │ │ ├── PostWidget.jsx │ │ │ └── UserWidget.jsx │ │ ├── state/ │ │ │ └── index.js │ │ ├── App.js │ │ ├── index.js │ │ ├── setupTests.js │ │ └── theme.js │ ├── .gitignore │ ├── package-lock.json │ ├── package.json │ └── README.md ├── server/ │ ├── controllers/ │ │ ├── auth.js │ │ ├── posts.js │ │ └── users.js │ ├── data/ │ │ └── index.js │ ├── middleware/ │ │ └── auth.js │ ├── models/ │ │ ├── Posts.js │ │ └── Users.js │ └── index.js ├── node_modules/ └── package.json
+
 ---
 
 ## **Features**
